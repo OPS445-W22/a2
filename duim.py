@@ -38,11 +38,13 @@ def percent_to_graph(percent, total_chars):
     pass
 
 def call_du_sub(location):
-    "use subprocess to call `du -d 1 + location`, rtrn raw list"
+    "takes the target directory as an argument and returns a list of strings"
+    "returned by the command `du -d 1 location`"
     pass
 
 def create_dir_dict(raw_dat):
-    "get list from du_sub, return dict {'directory': 0} where 0 is size"
+    "gets list from call_du_sub, returns a dictionary which should have full"
+    "directory name as key, and the number of bytes in the directory as the value."
     pass
 
 
