@@ -42,8 +42,8 @@ def call_du_sub(location):
     "returned by the command `du -d 1 location`"
     pass
 
-def create_dir_dict(raw_dat):
-    "gets list from call_du_sub, returns a dictionary which should have full"
+def create_dir_dict(alist):
+    "gets a list from call_du_sub, returns a dictionary which should have full"
     "directory name as key, and the number of bytes in the directory as the value."
     pass
 
